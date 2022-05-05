@@ -1,8 +1,10 @@
 #Author: yalaguresh.kulkarni@mindtree.com
 
-#@smoke
+
 
 Feature: Motor Insure New Policy Enter Details EN flow
+ 
+@SmokeTest @RegressionTest
   
 Scenario Outline: Motor Insure New Policy Enter Details EN flow
     
@@ -17,20 +19,9 @@ Scenario Outline: Motor Insure New Policy Enter Details EN flow
     Then  User enter mobile as "<mobile number>"
     And  User enter email as "<email id>"
     And User enter sequence as "<sequence number>"
-    #And User select the Transportation use
+    #And User select the Transportation uses
     And User enter the policy date as "<Policy Start Date>"
     
-   
-  
-
-    
-#Examples:
-#|NationalID|1035318375|
-#|date of birth|18-12-1969|
-#|mobile number|508228298|
-#|email id|hussain.al-quhaiz@ibm.com|
-#|sequence number|484501610|
-#|Policy Start Date|21-04-2022|
 
     
       Examples:

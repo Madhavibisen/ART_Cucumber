@@ -4,6 +4,8 @@
 
 Feature: Motor Insure New Policy Enter Details AR flow
   
+@SmokeTest @RegressionTest
+
 Scenario Outline: Motor Insure New Policy Enter Details AR flow
     
     Given getting Browser from the previous page.
