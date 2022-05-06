@@ -11,8 +11,8 @@ import io.cucumber.junit.CucumberOptions;
 @RunWith(Cucumber.class)
 @CucumberOptions(
 		features="./features",
-        glue= {"stepdefinitions"},
-        tags = "@SmokeTest,@RegressionTest"
+        glue= {"stepdefinitions"}
+        //tags = "@SmokeTest,@RegressionTest"
         //plugin = {"io.testproject.sdk.internal.reporting.extensions.cucumber.CucumberReporter"}
        )
 public class CucumberRunner{

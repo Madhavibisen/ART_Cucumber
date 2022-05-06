@@ -32,7 +32,7 @@ public class MotorInsureNewPolicy_AR_Page {
 	@FindBy(xpath = "//*[@formcontrolname='sequenceNumber']")
 	WebElement txt_sequenceNumber;
 
-	@FindBy(xpath = "//*[@placeholder='dd-mm-yyyy']")
+	@FindBy(xpath = "//*[@placeholder='سنة - شهر - يوم']")
 	WebElement txt_policyStartDate;
 
 	public MotorInsureNewPolicy_AR_Page(WebDriver project_Driver) {
