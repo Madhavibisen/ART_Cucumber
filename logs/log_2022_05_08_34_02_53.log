@@ -1,0 +1,13 @@
+2022-05-08 14:34:53,281  INFO [main] CucumberRunner:31 - <---------------------------Motor EN flow<---------------------------
+2022-05-08 14:34:58,355  INFO [main] CucumberRunner:38 - Browser opened sucessfully
+2022-05-08 14:35:10,483  INFO [main] CucumberRunner:49 - User in home page
+2022-05-08 14:35:13,607  INFO [main] CucumberRunner:57 - User clicked on the motor option
+2022-05-08 14:35:13,607  INFO [main] CucumberRunner:62 - User navigate to Insure New Policy page
+2022-05-08 14:35:13,608  INFO [main] CucumberRunner:68 - User navigate to Insure New Policy
+2022-05-08 14:35:13,608  INFO [main] CucumberRunner:74 - User enters the policies holder details
+2022-05-08 14:35:14,879  INFO [main] CucumberRunner:81 - User entered the NID as 1096136294
+2022-05-08 14:35:17,035  INFO [main] CucumberRunner:88 - User entered the dob as 12-09-1969
+2022-05-08 14:35:19,167  INFO [main] CucumberRunner:95 - User entered the mobile number as 508228298
+2022-05-08 14:35:21,339  INFO [main] CucumberRunner:102 - User entered the email as hussain.al-quhaiz@ibm.com
+2022-05-08 14:35:23,445  INFO [main] CucumberRunner:109 - User entered the sequence number as 484501610
+2022-05-08 14:35:25,574  INFO [main] CucumberRunner:116 - User entered the policies date as 21-04-2022

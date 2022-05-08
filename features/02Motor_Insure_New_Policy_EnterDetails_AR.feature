@@ -1,11 +1,10 @@
 #Author: yalaguresh.kulkarni@mindtree.com
 
-#@smoke
+#@mustRun 
 
 Feature: Motor Insure New Policy Enter Details AR flow
-  
-#@SmokeTest @RegressionTest
-
+ 
+@smoke @regression
 Scenario Outline: Motor Insure New Policy Enter Details AR flow
     
     Given getting Browser from the previous page.
@@ -25,6 +24,6 @@ Scenario Outline: Motor Insure New Policy Enter Details AR flow
 
       Examples:
      |NationalID|date of birth|mobile number|email id|sequence number|Policy Start Date|
-     |1096136294|12-09-1969|508228298|hussain.al-quhaiz@ibm.com|484501610|21-04-2022|
+     |2328803271|27-05-1988|508228298|hussain.al-quhaiz@ibm.com|25954010|21-04-2022|
    
           
